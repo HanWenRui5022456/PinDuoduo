@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">MVP</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="item_home">首页</string>
+    <string name="item_Newproduct">新品</string>
+    <string name="item_iherb">海淘</string>
+    <string name="item_search">搜索</string>
+    <string name="item_personal">个人中心</string>
+
+</resources>

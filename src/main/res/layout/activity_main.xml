@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:orientation="vertical">
+
+
+    <RadioGroup
+        android:gravity="bottom"
+        android:id="@+id/radio_group"
+        android:layout_width="match_parent"
+        android:layout_alignParentBottom="true"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+
+    <RadioButton
+
+        android:id="@+id/Radio_but_one"
+        android:drawableTop="@drawable/xuanhome"
+        android:text="@string/item_home"
+        style="@style/radiobutton_style"
+        android:checked="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+
+    <RadioButton
+        android:id="@+id/Radio_but_two"
+        android:drawableTop="@drawable/xuannew_arr"
+        android:text="@string/item_Newproduct"
+        style="@style/radiobutton_style"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+
+    <RadioButton
+        android:id="@+id/Radio_but_three"
+        android:drawableTop="@drawable/xuanhaitao"
+        android:text="@string/item_iherb"
+        style="@style/radiobutton_style"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+
+    <RadioButton
+        android:id="@+id/Radio_but_fore"
+        android:drawableTop="@drawable/xuansou"
+        android:text="@string/item_search"
+        style="@style/radiobutton_style"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+
+
+        <RadioButton
+            android:id="@+id/Radio_but_five"
+            android:drawableTop="@drawable/xuanpersonal"
+            android:text="@string/item_personal"
+            style="@style/radiobutton_style"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+
+    </RadioGroup>
+
+    <include
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/radio_group"
+        layout="@layout/fragment_sub_content"></include>
+
+
+</RelativeLayout>
